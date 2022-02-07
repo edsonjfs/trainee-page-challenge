@@ -1,0 +1,10 @@
+*,
+*::before,
+*::after  {
+  --light-yellow:     #ffe21d;
+  --dark-yellow:      #ffd21d;
+  --light-blue:       #24afff;
+  --dark-blue:        #248bff;
+  --red:              #f26c6c;
+  --green:            #27b667;
+}
