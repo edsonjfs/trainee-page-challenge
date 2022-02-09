@@ -1,0 +1,14 @@
+.a__nav {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.a__nav:visited {
+  text-decoration: none;
+}
+
+.a__nav:hover {
+  text-decoration: underline var(--dark-yellow);
+  transition: var(--transition-default-time);
+  transform-origin: left;
+}

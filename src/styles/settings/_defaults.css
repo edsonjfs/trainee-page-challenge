@@ -10,6 +10,7 @@
   --light-green:            #a9cfba;
   --white:                  #ffffff;
   --background-color:       #ebe8e1;
+  --black:                  #000000;
 
   --font-size-default:        20px;
   --font-size-big:            30px;
@@ -21,8 +22,10 @@
   --default-space:            20px;
   --two-hundred-px-space:     200px;
   --three-hundred-px-space:   300px;
+  --full-height:              100vh;     
 
   --border-radius-default:    25px;
   --border-thickness-default: 0.75mm;
   --opacity-default:          0.5;
+  --transition-default-time:  0.25s
 }

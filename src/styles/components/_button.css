@@ -1,5 +1,6 @@
 .button {
   font-size: inherit;
+  font: inherit;
   background-color: inherit;
   border-radius:  var(--border-radius-default);
   border: var(--border-thickness-default) solid;

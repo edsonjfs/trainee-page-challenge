@@ -4,6 +4,11 @@
 @import 'generic/_resets.css';
 
 @import 'elements/_body.css';
+@import 'elements/_div.css';
+@import 'elements/_header.css';
+@import 'elements/_ul.css';
+@import 'elements/_a.css';
+@import 'elements/_main.css';
 
 @import 'components/_button.css';
 @import 'components/_input.css'

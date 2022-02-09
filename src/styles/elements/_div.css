@@ -1,0 +1,8 @@
+div {
+  display: flex;
+}
+
+.header__logo {
+  margin: var(--default-space);
+  padding: var(--one-mm-space);
+}

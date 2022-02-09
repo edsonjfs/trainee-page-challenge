@@ -1,6 +1,13 @@
 body {
+  min-height: var(--full-height);
   font-family: var(--font-montserrat);
   font-size: var(--font-size-default);
   padding: var(--default-space);
   background-color: var(--background-color);
+  background-size: cover;
+  background-image: linear-gradient(
+    60deg,
+  rgba(136, 128, 211, 0.40) 100%,
+  rgba(255, 255, 255, 0.60) 100%),
+    url(https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?cs=srgb&dl=pexels-negative-space-92904.jpg&fm=jpg);
 }

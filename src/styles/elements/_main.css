@@ -1,0 +1,7 @@
+.main-text {
+height: var(--full-height);
+font-size: var(--font-size-big);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
