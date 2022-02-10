@@ -1,3 +1,4 @@
 html {
   height: var(--full-height);
+  scroll-behavior: smooth;
 }

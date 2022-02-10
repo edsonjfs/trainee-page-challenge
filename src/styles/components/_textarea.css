@@ -1,0 +1,20 @@
+.textarea {
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: lighter;
+  border-radius:  var(--border-radius-default);
+  width: var(--three-hundred-px-space);
+  border: none;
+  background-color: var(--white);
+  margin: var(--default-space);
+  padding: var(--one-mm-space);
+}
+
+.--textarea-form {
+  width: var(--form-input-width);
+  height: var(--three-hundred-px-space);
+}
+
+.--textarea-form:focus {
+  border: var(--border-thickness-default) solid var(--dark-blue);
+}

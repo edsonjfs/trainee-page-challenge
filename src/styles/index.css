@@ -10,6 +10,10 @@
 @import 'elements/_a.css';
 @import 'elements/_main.css';
 @import 'elements/_section.css';
+@import 'elements/_form.css';
+@import 'elements/_h1.css';
+@import 'elements/_p.css';
 
 @import 'components/_button.css';
-@import 'components/_input.css'
+@import 'components/_input.css';
+@import 'components/_textarea.css';

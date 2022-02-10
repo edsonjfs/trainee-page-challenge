@@ -9,6 +9,10 @@
   padding: var(--one-mm-space);
 }
 
+.button__form {
+  margin: auto;
+}
+
 .button--yellow {
   border :  var(--border-thickness-default) solid var(--light-yellow)
 }
@@ -17,34 +21,34 @@
   border :  var(--border-thickness-default) solid var(--light-blue)
 }
 
-.button--yellow:hover{
+.button--yellow:hover {
   background-color: var(--light-yellow);
 }
 
-.button--blue:hover{
+.button--blue:hover {
   background-color: var(--light-blue);
   color: var(--white);
 }
 
-.button--yellow:active{
+.button--yellow:active {
   background-color: var(--dark-yellow);
   border :  var(--border-thickness-default) solid var(--dark-yellow);
 }
 
-.button--blue:active{
+.button--blue:active {
   background-color: var(--dark-blue);
   border :  var(--border-thickness-default) solid var(--dark-blue);
   color: var(--white);
 }
 
-.button--yellow:disabled{
+.button--yellow:disabled {
   background-color: var(--light-yellow);
   border :  var(--border-thickness-default) solid var(--light-yellow);
   opacity: var(--opacity-default);
   cursor: not-allowed;
 }
 
-.button--blue:disabled{
+.button--blue:disabled {
   background-color: var(--light-blue);
   border :  var(--border-thickness-default) solid var(--light-blue);
   opacity: var(--opacity-default);

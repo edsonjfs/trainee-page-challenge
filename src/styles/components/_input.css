@@ -1,6 +1,8 @@
 .input {
   font-size: inherit;
-  border-radius:  var(--border-radius-default);
+  font-family: inherit;
+  font-weight: lighter;
+  border-radius: var(--border-radius-default);
   width: var(--three-hundred-px-space);
   border: none;
   background-color: var(--white);
@@ -8,26 +10,35 @@
   padding: var(--one-mm-space);
 }
 
-.input:focus{
+.--form-input {
+  width: var(--form-input-width);
+}
+
+.--form-large-input {
+  width: var(--form-input-width);
+  height: var(--three-hundred-px-space);
+}
+
+.input:focus {
   border :  var(--border-thickness-default) solid var(--dark-blue);
 }
 
-.input:disabled{
+.input:disabled {
   opacity: var(--opacity-default);
   cursor: not-allowed;
 }
 
-.input--error{
+.input--error {
   color: var(--red);
   background-color: var(--light-red); 
 }
 
-.input--succes{
+.input--succes {
   color: var(--green);
   background-color: var(--light-green);
 }
 
-.input--attention{
+.input--attention {
   color: var(--dark-yellow);
   background-color: var(--opaque-yellow);
 }

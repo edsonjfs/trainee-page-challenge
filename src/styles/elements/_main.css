@@ -4,4 +4,5 @@ font-size: var(--font-size-big);
 display: flex;
 flex-direction: column;
 justify-content: center;
+margin: var(--default-space);
 }
