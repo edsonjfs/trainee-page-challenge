@@ -6,9 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap">
-    <title>Web App</title>
+    <title>Trainne Application</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <section class="main-section">
+      <header class ="header-landing-page">
+        <div class ="header__logo">Codeminer42</div>
+        
+        <div class ="header__nav">
+          <ul class ="ul_nav" >
+            <li><a class ="a__nav" href="">HOME</a> </li>
+            <li><a class ="a__nav" href="">ABOUT</a> </li>
+            <li><a class ="a__nav" href="">BENEFITS</a> </li>
+          </ul>
+        </div>
+        
+        <a class="a__nav" href="#section-form">
+          <div class="header__button">
+            <button class ="button button--yellow"> APPLY NOW </button>
+          </div>
+        </a>
+      </header>
+      <main class="main-text">Trainee Program 2022</main>
+    </section>
+
+    <section class="form" id="section-form">
+      <h1 class="h1__form">APPLY NOW</h1>
+      <p class="p__form">We are looking for people who want to learn with real problem resolution, 
+        tell us about yourself:</p>
+      
+      <form action="" class="form__contact-us">
+          <input class="input --form-input" type="text" id="name-input" 
+          onfocus="this.value=''" value="What's your name?">
+          <input class="input --form-input" type="text" id="email-input"
+          onfocus="this.value=''" value="What's your e-mail?">
+          <textarea class="textarea --textarea-form" type="text" id="resume-input"
+          onfocus="this.value=''"> Tell us about yourself! </textarea>
+      </form>
+
+      <button class ="button button__form button--blue"> SEND </button>
+    </section>
   </body>
 </html>

@@ -1,0 +1,7 @@
+h1 {
+  margin: var(--default-space);
+}
+.h1__form{
+  color: var(--dark-blue);
+  font-weight: bolder;
+}
