@@ -1,0 +1,8 @@
+.ul_nav{
+  display: flex;
+  justify-content: space-between;
+  width: var(--three-hundred-px-space);
+  list-style-type: none;
+  margin: var(--default-space);
+  padding: var(--one-mm-space);
+}
