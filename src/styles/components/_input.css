@@ -9,7 +9,7 @@
 }
 
 .input:focus{
-  border :  var(--border-thickness-default) solid var(--dark-blue);
+  border: var(--border-thickness-default) solid var(--dark-text-secondary);
 }
 
 .input:disabled{
@@ -18,28 +18,32 @@
 }
 
 .input--error{
-  color: var(--red);
-  background-color: var(--light-red); 
+  color: var(--text-error);
+  background-color: var(--light-text-error); 
 }
 
 .input--succes{
-  color: var(--green);
-  background-color: var(--light-green);
+  color: var(--text-succes);
+  background-color: var(--light-text-succes);
 }
 
 .input--attention{
-  color: var(--dark-yellow);
-  background-color: var(--opaque-yellow);
+  color: var(--dark-text-primary);
+  background-color: var(--opaque-text-primary);
 }
 
 .input--error:focus {
-  border:none
+  border: none;
 }
 
 .input--succes:focus {
-  border:none
+  border: none;
 }
 
 .input--attention:focus {
-  border:none
+  border: none;
+}
+
+.input-active {
+  border: var(--border-thickness-default) solid var(--dark-text-secondary);
 }

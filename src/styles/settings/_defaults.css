@@ -1,15 +1,15 @@
 :root {
-  --light-yellow:           #ffe21d;
-  --dark-yellow:            #ffd21d;
-  --opaque-yellow:          #ffefad;
-  --light-blue:             #24afff;
-  --dark-blue:              #248bff;
-  --red:                    #f26c6c;
-  --light-red:              #fdcaca;
-  --green:                  #27b667;
-  --light-green:            #a9cfba;
+  --text-primary:           #ffe21d;
+  --dark-text-primary:      #ffd21d;
+  --opaque-text-primary:    #ffefad;
+  --text-secondary:         #24afff;
+  --dark-text-secondary:    #248bff;
+  --text-error:             #f26c6c;
+  --light-text-error:       #fdcaca;
+  --text-succes:            #27b667;
+  --light-text-succes:      #a9cfba;
   --white:                  #ffffff;
-  --background-color:       #ebe8e1;
+  --bg-primary:             #ebe8e1;
 
   --font-size-default:        20px;
   --font-size-big:            30px;

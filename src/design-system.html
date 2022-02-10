@@ -12,15 +12,26 @@
   <body>
     <h1>Design System</h1>
       <div>
-        <button class = "button button--yellow"> Button </button>
-        <button class = "button button--blue"> Button </button>
-        <button class = "button button--yellow" disabled> Button </button>
-        <button class = "button button--blue" disabled> Button </button>
+        <button class="button button--primary-color"> Static Button </button>
+        <button class="button button--primary-color button--primary-color-hovered"> Hovered Button </button>
+        <button class="button button--primary-color button--primary-color-pressed"> Pressed Button </button>
+        <button class="button button--primary-color" disabled> Disabled Button </button>
+      </div>
+      
+      <div>
+        <button class="button button--secondary-color"> Static Button </button>
+        <button class="button button--secondary-color button--secondary-color-hovered"> Hovered Button </button>
+        <button class="button button--secondary-color button--secondary-color-pressed"> Pressed Button </button>
+        <button class="button button--secondary-color" disabled> Disabled Button </button>
       </div>
 
       <div>
-        <input type="text" class="input" onfocus="this.value=''" value="Input"/>
-        <input type="text" class="input" value="Input" disabled/>
+        <input type="text" class="input" onfocus="this.value=''" value="Static Input"/>
+        <input type="text" class="input input-active" onfocus="this.value=''" value="Active Input"/>
+        <input type="text" class="input" value="Disabled Input" disabled/>
+      </div>
+      
+      <div>
         <input type="text" class="input input--error" value="Input error!"/>
         <input type="text" class="input input--succes" value="Input succes!"/>
         <input type="text" class="input input--attention" value="This needs your attention!"/>

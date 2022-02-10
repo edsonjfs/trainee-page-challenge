@@ -8,45 +8,66 @@
   padding: var(--one-mm-space);
 }
 
-.button--yellow {
-  border :  var(--border-thickness-default) solid var(--light-yellow)
+.button--primary-color {
+  border: var(--border-thickness-default) solid var(--text-primary)
 }
 
-.button--blue {
-  border :  var(--border-thickness-default) solid var(--light-blue)
+.button--secondary-color {
+  border: var(--border-thickness-default) solid var(--text-secondary)
 }
 
-.button--yellow:hover{
-  background-color: var(--light-yellow);
+.button--primary-color:hover {
+  background-color: var(--text-primary);
 }
 
-.button--blue:hover{
-  background-color: var(--light-blue);
+.button--secondary-color:hover {
+  background-color: var(--text-secondary);
   color: var(--white);
 }
 
-.button--yellow:active{
-  background-color: var(--dark-yellow);
-  border :  var(--border-thickness-default) solid var(--dark-yellow);
+.button--primary-color:active {
+  background-color: var(--dark-text-primary);
+  border: var(--border-thickness-default) solid var(--dark-text-primary);
 }
 
-.button--blue:active{
-  background-color: var(--dark-blue);
-  border :  var(--border-thickness-default) solid var(--dark-blue);
+.button--secondary-color:active {
+  background-color: var(--dark-text-secondary);
+  border: var(--border-thickness-default) solid var(--dark-text-secondary);
   color: var(--white);
 }
 
-.button--yellow:disabled{
-  background-color: var(--light-yellow);
-  border :  var(--border-thickness-default) solid var(--light-yellow);
+.button--primary-color:disabled {
+  background-color: var(--text-primary);
+  border: var(--border-thickness-default) solid var(--text-primary);
   opacity: var(--opacity-default);
   cursor: not-allowed;
 }
 
-.button--blue:disabled{
-  background-color: var(--light-blue);
-  border :  var(--border-thickness-default) solid var(--light-blue);
+.button--secondary-color:disabled {
+  background-color: var(--text-secondary);
+  border: var(--border-thickness-default) solid var(---text-secondary);
   opacity: var(--opacity-default);
   color: var(--white);
   cursor: not-allowed;
+}
+
+.button--primary-color-hovered {
+  background-color: var(--text-primary);
+}
+
+.button--primary-color-pressed {
+  background-color: var(--dark-text-primary);
+  border: var(--border-thickness-default) solid var(--dark-text-primary);
+  
+}
+
+.button--secondary-color-hovered {
+  color: var(--white);
+  background-color: var(--text-secondary);
+}
+
+.button--secondary-color-pressed {
+  color: var(--white);
+  background-color: var(--dark-text-secondary);
+  border: var(--border-thickness-default) solid var(--dark-text-secondary);
 }
